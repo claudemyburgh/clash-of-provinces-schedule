@@ -1,0 +1,60 @@
+@use "~macaroon.css/sass/config"
+@use "~macaroon.css/sass/mixins"
+@use "colors"
+@use "sass:map"
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap')
+
+$border-steps: 20 !default
+
+$nav_breakpoint: 800px
+
+$colors: map.merge(config.$colors, colors.$colors)
+
+\:root
+  +mixins.color-loop($colors)
+
+  // Fonts heading
+  --heading-fonts: 'Berkshire Swash', cursive
+  --heading-font-weight: 700
+  --heading-color: #e1e1e1
+
+  // Global styles
+  --body-font-family:  'Roboto', sans-serif
+  --body-font-size: 1rem
+  --body-font-weight: 400
+  --body-color: #e1e1e1
+  --body-selection-bg: var(--blue-50)
+  --body-selection-txt: var(--blue-600)
+  --body-padding: 1rem
+
+  // Global body styles
+  --body-margin-top: 60px
+  --body-bg-color: var(--gray-800)
+  --body-line-height: 1.48
+
+  // Main navigation
+  --nav-bg-color: var(--blue-600)
+  --nav-brand-color: #fff
+  --nav-brand-size: 22px
+  --nav-breakpoint: 900px
+  --nav-height: 50px
+  --nav-padding: 5px
+  // Navigation Links
+  --nav-link-border-radius: 4px
+  --nav-link-bg: transparent
+  --nav-link-txt: var(--blue-100)
+  --nav-link-bg-hover: var(--blue-600)
+  --nav-link-txt-hover: var(--gray-100)
+  --nav-link-height: var(--nav-height)
+  // Navigation toggle
+  --nav-toggle-border-style: 2px solid var(--white)
+  --nav-toggle-radius: 4px
+
+  // Panel
+  --panel-bg-color: #fff
+  --panel-color: #444
+  --panel-padding: 12px
+
+  // Form
+  --form-input-txt: var(--body-color)

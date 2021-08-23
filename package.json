@@ -1,5 +1,5 @@
 {
-  "name": "rise-of-empires-app",
+  "name": "clash-of-provinces-web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "luxon": "^2.0.2",
+    "macaroon.css": "^1.0.0-alpha.3",
     "next": "11.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "react-scroll": "^1.8.3",
+    "sass": "^1.38.0"
   },
   "devDependencies": {
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.0"
+    "eslint-config-next": "11.1.0",
+    "prettier": "^2.3.2"
   }
 }
