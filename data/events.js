@@ -5,19 +5,19 @@ const events = [
     events: [
       {
         tasks: ['Increase Building Power', 'Every 1 min of building speed-up items used'],
-        dd: [false, false],
+        dd: false,
       },
       {
         tasks: ['Increase Building Power'],
-        dd: [false],
+        dd: false,
       },
       {
         tasks: ['Every 1 min of training speed-up items used', 'Spend VIP points'],
-        dd: [false, false],
+        dd: false,
       },
       {
         tasks: ['Increase Building Power', 'Training troops', 'Spend VIP points'],
-        dd: [false, false, false],
+        dd: false,
       },
       {
         tasks: [
@@ -25,19 +25,19 @@ const events = [
           'Every 1 min of research speed-up items used',
           'Every 1 min of training speed-up items used',
         ],
-        dd: [false, false, false],
+        dd: false,
       },
       {
         tasks: ['Increase Building Power', 'Tech Research', 'Every 1 min of training speed-up items used'],
-        dd: [false, false, false],
+        dd: false,
       },
       {
         tasks: ['Increase Building Power', 'Tech Research', 'Training Troops'],
-        dd: [false, false, false],
+        dd: false,
       },
       {
         tasks: ['Increase Building Power'],
-        dd: [false],
+        dd: false,
       },
     ],
   },
@@ -47,35 +47,35 @@ const events = [
     events: [
       {
         tasks: ['Increase Building Power', 'Craft Parts'],
-        dd: [true, true],
+        dd: true,
       },
       {
         tasks: ['Building ', 'Tech Research', 'Every 1 min of training speed-up items used'],
-        dd: [true, true, false],
+        dd: true,
       },
       {
         tasks: ['Increase Building Power', 'Craft Parts'],
-        dd: [true, true],
+        dd: true,
       },
       {
         tasks: ['Use Any Speedups'],
-        dd: [false],
+        dd: false,
       },
       {
         tasks: ['Building ', 'Tech Research'],
-        dd: [true, false],
+        dd: true,
       },
       {
         tasks: ['Increase Building Power', 'Tech Research', 'Consume Energy Core'],
-        dd: [true, true, false],
+        dd: true,
       },
       {
         tasks: ['Increase Building Power', 'Tech Research'],
-        dd: [true, false],
+        dd: true,
       },
       {
         tasks: ['Increase Building Power'],
-        dd: [true, false, false],
+        dd: true,
       },
     ],
   },
@@ -85,73 +85,73 @@ const events = [
     events: [
       {
         tasks: ['Use Any Speedups'],
-        dd: [false],
+        dd: false,
       },
       {
         tasks: ['Tech Research', 'Tech Research Speedups'],
-        dd: [false, false],
+        dd: false,
       },
       {
         tasks: ['Every 1 min of building speed-up items used', 'Tech Research Speedup', 'Every 1 min of training speed-up items used'],
-        dd: [false, false, false],
+        dd: false,
       },
       {
         tasks: ['Increase Building Power', 'Tech Research', 'Craft Parts'],
-        dd: [false, true, false],
+        dd: true,
       },
       {
         tasks: ['Increase Building Power', 'Tech Research', 'Craft Parts'],
-        dd: [false, true, false],
+        dd: true,
       },
       {
         tasks: ['Every 1 min of building speed-up items used', 'Tech Research Speedups', 'Every 1 min of training speed-up items used'],
-        dd: [false, false, false],
+        dd: false,
       },
       {
         tasks: ['Increase Building Power', 'Tech Research', 'Training Speedup', 'Consume energy core'],
-        dd: [false, true, false, false],
+        dd: true,
       },
       {
         tasks: ['Increase Building Power', 'Tech Research'],
-        dd: [false, true],
+        dd: true,
       },
     ],
   },
   {
     name: 'Hero Day',
-    description: 'Recruit and Upgrade Heroes + Defeat Zombies',
+    description: 'Recruit and Upgrade Heroes + Defeat Marauders ',
     events: [
       {
-        tasks: ['Hero Recruitment', 'Kill Zombies'],
-        dd: [false, false],
+        tasks: ['Hero Recruitment', 'Kill Marauders '],
+        dd: false,
       },
       {
         tasks: ['All Hero Development'],
-        dd: [true],
+        dd: true,
       },
       {
-        tasks: ['Acquire Wisdom Medals', 'Spend Wisdom Medals', 'Kill Zombies'],
-        dd: [true, true, true],
+        tasks: ['Acquire Wisdom Medals', 'Spend Wisdom Medals', 'Kill Marauders '],
+        dd: true,
       },
       {
         tasks: ['All Hero Development'],
-        dd: [false],
+        dd: false,
       },
       {
         tasks: ['Hero Recruitment', 'Spend Wisdom Medals'],
-        dd: [false, false],
+        dd: false,
       },
       {
         tasks: ['All Hero Development'],
-        dd: [false],
+        dd: false,
       },
       {
-        tasks: ['Acquire Wisdom Medals', 'Spend Wisdom Medals', 'Kill Zombies'],
-        dd: [false],
+        tasks: ['Acquire Wisdom Medals', 'Spend Wisdom Medals', 'Kill Marauders '],
+        dd: false,
       },
       {
         tasks: ['All Hero Development'],
-        dd: [false],
+        dd: false,
       },
     ],
   },
@@ -161,35 +161,35 @@ const events = [
     events: [
       {
         tasks: ['Use Any Speedups'],
-        dd: [false],
+        dd: false,
       },
       {
         tasks: ['Every 1 min of building speed-up items used', 'Tech Research Speedups', 'Every 1 min of training speed-up items used'],
-        dd: [false, false, false],
+        dd: false,
       },
       {
         tasks: ['Increase Building Power', 'Tech Research', 'Every 1 min of training speed-up items used'],
-        dd: [false, false, false],
+        dd: false,
       },
       {
         tasks: ['Every 1 min of training speed-up items used'],
-        dd: [false, false, false],
+        dd: false,
       },
       {
         tasks: ['Increase Building Power', 'Tech Research', 'Every 1 min of training speed-up items used'],
-        dd: [false, false, false],
+        dd: false,
       },
       {
         tasks: ['Increase Building Power', 'Training Troops'],
-        dd: [false, true],
+        dd: true,
       },
       {
         tasks: ['Tech Research', 'Training Troops'],
-        dd: [false, true],
+        dd: true,
       },
       {
         tasks: ['Use Any Speedups'],
-        dd: [false],
+        dd: false,
       },
     ],
   },
@@ -199,41 +199,42 @@ const events = [
     events: [
       {
         tasks: ['Use Any Speedups'],
-        dd: [false],
+        dd: false,
       },
       {
         tasks: ['Tech Research', 'Tech Speedups'],
-        dd: [false, false],
+        dd: false,
       },
       {
         tasks: ['Increase Building Power', 'Every minute Every 1 min of building speed-up items used used'],
-        dd: [false, false],
+        dd: false,
       },
       {
         tasks: ['Every 1 min of training speed-up items used'],
-        dd: [false],
+        dd: false,
       },
       {
         tasks: ['Increase Building Power', 'Tech Research', 'Every 1 min of training speed-up items used'],
-        dd: [false, false, false],
+        dd: false,
       },
       {
         tasks: ['Increase Building Power', 'Tech Research', 'Every 1 min of training speed-up items used'],
-        dd: [false, false, false],
+        dd: false,
       },
       {
         tasks: ['Increase Building Power', 'Training Troops'],
-        dd: [false, false],
+        dd: false,
       },
       {
         tasks: ['Tech Research', 'Training Troops'],
-        dd: [false, false],
+        dd: false,
       },
     ],
   },
   {
     name: 'Free Development',
-    description: 'Select any of the available events',
+    description:
+      'On free development days (Sundays and also Saturday during preparation weeks when there is no kill event) You can choose from any of the other days events (eg gathering, building etc). When you choose your Sunday event your hourly events on that day will be the same as the ones on the chosen day. For example if you choose Gathering on Sunday then you will get Day 1 (Monday) event schedule.',
   },
 ]
 

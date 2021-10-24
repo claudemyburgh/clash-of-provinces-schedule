@@ -16,37 +16,21 @@ const TopNav = () => {
   const { getDayByNumber } = useTimezone()
   const clock = useClock()
   return (
-    <div className="nav nav--fixed border--blue-800">
-      <div className="nav__wrapper">
-        <div className="nav__brand mr-6">
+    <div className="fixed z-50 w-full top-0 bg-gray-900">
+      <div className="max-w-6xl px-4 flex justify-between items-center min-h-[70px] mx-auto text-gray-100">
+        <div className="text-xl font-bold">
           <ScrollLink to={`event-${today.toFormat('E')}`} smooth={true} offset={-70} duration={1500}>
             <strong>{today.weekdayLong}</strong>:{' '}
-            <i className="txt--blue-900 font--weight-900">
+            <i className="text-primary-500">
               {events[getDayByNumber(today) - 1].name} {}
             </i>
           </ScrollLink>
         </div>
-        <button onClick={toggleOpen} className="nav__toggle">
+        <button onClick={toggleOpen} className="md:hidden">
           <HiMenuAlt3 size={20} color="#fff" />
         </button>
-        <div className={`nav__responsive justify--end ${isOpen()}`}>
-          <ul className="nav__links">
-            <li className="nav__link clock border--white border--dashed">
-              <FcAlarmClock size={24} style={{ marginRight: 10 }} /> {clock}
-            </li>
-          </ul>
-          {/*<ul className="nav__links">*/}
-          {/*  <li className="nav__link">*/}
-          {/*    <Link href={`/`}>*/}
-          {/*      <a>HOME</a>*/}
-          {/*    </Link>*/}
-          {/*  </li>*/}
-          {/*  <li className="nav__link">*/}
-          {/*    <Link href={`/`}>*/}
-          {/*      <a>HERO</a>*/}
-          {/*    </Link>*/}
-          {/*  </li>*/}
-          {/*</ul>*/}
+        <div className="flex border border-gray-500 border-dashed rounded px-4 py-2">
+          <FcAlarmClock size={24} style={{ marginRight: 10 }} /> {clock}
         </div>
       </div>
     </div>

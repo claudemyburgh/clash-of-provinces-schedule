@@ -11,7 +11,7 @@ const DropDownTimezone = ({ className }) => {
         name="timezone"
         id="timezone"
         value={selectedZone}
-        className={`form__item bg--gray-800 border--gray-900 focus--gray-700 ${className}`}
+        className={`form-select rounded max-w-full ${className}`}
       >
         {timezone.map((zone, index) => (
           <option key={index.toString()} value={zone.value}>
