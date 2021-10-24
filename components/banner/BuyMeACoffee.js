@@ -17,7 +17,9 @@ const BuyMeACoffee = () => {
           harum id illum iste mollitia neque praesentium sunt suscipit unde veniam vitae voluptate voluptates. Deserunt, dicta dolor, eaque
         </p>
         <a
-          href="#"
+          href="https://www.buymeacoffee.com/designbycode"
+          target="_blank"
+          rel="noreferrer"
           className={
             'bg-gradient-to-b from-yellow-500 to-yellow-400 hover:shadow hover:to-yellow-300 text-white px-6' +
             ' py-2' +

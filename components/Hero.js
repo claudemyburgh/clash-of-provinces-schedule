@@ -20,10 +20,11 @@ const Hero = () => {
             <a
               href="https://www.buymeacoffee.com/designbycode"
               target="_blank"
+              rel="noreferrer"
               className="relative  bg-gradient-to-b from-yellow-500 to-yellow-400 hover:to-yellow-300 text-lg text-white tracking-tight font-bold rounded inline-flex justify-center items-center min-w-[180px] px-6 py-2 hover:shadow-md"
             >
               <span className="p-2 relative block  w-full h-full">
-                <Image src={'/bmc-full-logo.svg'} layout={'fill'} />
+                <Image src={'/bmc-full-logo.svg'} layout={'fill'} alt="buy me a coffee" />
               </span>
             </a>
           </div>
