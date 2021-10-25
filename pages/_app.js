@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import 'atropos/css'
+
 import { TimezoneProvider } from '../context/TimezoneContext'
 import TopNav from '../components/nav/TopNav'
 

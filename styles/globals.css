@@ -30,14 +30,14 @@
         background: brown;
     }
 
-    .atropos-shadow {
-      background: rgba(0,0,0,0.15) !important;
-      filter: blur(30px);
-    }
+    /*.atropos-shadow {*/
+    /*  background: rgba(0,0,0,0.15) !important;*/
+    /*  filter: blur(30px);*/
+    /*}*/
 
-    .atropos-inner {
-        overflow: visible !important;
-    }
+    /*.atropos-inner {*/
+    /*    overflow: visible !important;*/
+    /*}*/
 
 
 }
