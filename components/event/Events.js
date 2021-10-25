@@ -10,7 +10,7 @@ const Events = () => {
         events.map((event, index) => (
           <Fragment key={index.toString()}>
             <Element name={`event-${index + 1}`}>
-              <div className="flex flex-col text-center lg:w-2/3 w-full mx-auto mt-10 mb-5 border border-primary-500 py-10 bg-gray-900 rounded-xl shadow-xl">
+              <div className="flex flex-col text-center lg:w-2/3 w-full mx-auto mt-10 mb-5 border border-primary-500 p-10 bg-gray-900 rounded-xl shadow-xl">
                 <h1 className="sm:text-4xl text-3xl font-medium title-font mb-2 text-primary-500">{event.name}</h1>
                 <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-200">{event.description}</p>
               </div>

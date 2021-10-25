@@ -18,9 +18,9 @@ const EventTableRow = ({ event }) => {
             </ul>
           </td>
           <td className={`p-4 font-semibold text-gray-700 text-right`}>
-            <div className="checker w-8 h-8 float-right">
+            <div className="checker w-8 h-8 float-right relative">
               <span
-                className={`w-8 h-8 rounded-full relative items-center justify-center z-10  flex${
+                className={`w-8 h-8 rounded-full relative items-center justify-center z-20  flex${
                   event.dd ? ' bg-gray-900 text-green-500' : ' bg-gray-200  text-white '
                 }`}
               >

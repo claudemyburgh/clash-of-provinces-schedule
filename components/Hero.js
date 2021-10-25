@@ -29,8 +29,8 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img className="object-cover object-center rounded shadow-2xl" alt="hero" src="https://dummyimage.com/720x600" />
+        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 relative drop-shadow-2xl">
+          <Image src={'/hero-sample.png'} layout={'responsive'} height={563} width={877} alt="hero image" />
         </div>
       </div>
     </>
