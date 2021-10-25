@@ -11,11 +11,7 @@ const Events = () => {
         events.map((event, index) => (
           <Fragment key={index.toString()}>
             <Element name={`event-${index + 1}`}>
-              <div className="flex relative flex-col justify-center lg:w-2/3 w-full mx-auto mt-10 mb-5">
-                <div className="absolute translate-y-10 drop-shadow-lg z-10 p-10">
-                  <h1 className="sm:text-4xl text-3xl font-black text-primary-500">{event.name}</h1>
-                  <p className=" leading-relaxed text-base text-gray-200 bg-black bg-opacity-50 rounded p-3 -m-3">{event.description}</p>
-                </div>
+              <div className="flex relative  flex-col justify-center lg:w-2/3 w-full mx-auto mt-10 mb-5">
                 <div className={'drop-shadow-lg'}>
                   <Image
                     src={event.image.source}
@@ -24,6 +20,10 @@ const Events = () => {
                     height={event.image.height}
                     alt={event.name}
                   />
+                </div>
+                <div className="md:absolute md:translate-y-10 drop-shadow-lg z-10 p-10">
+                  <h1 className="sm:text-4xl text-3xl font-black text-primary-500">{event.name}</h1>
+                  <p className=" leading-relaxed text-base text-gray-200 bg-black bg-opacity-50 rounded p-3 -m-3">{event.description}</p>
                 </div>
               </div>
 

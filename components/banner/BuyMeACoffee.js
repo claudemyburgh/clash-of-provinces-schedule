@@ -3,13 +3,13 @@ import Image from 'next/image'
 
 const BuyMeACoffee = () => {
   return (
-    <div className="-rotate-1 bg-gradient-to-b from-yellow-50 to-white p-12 border-2 border-yellow-500 rounded-lg drop-shadow-2xl flex flex-wrap min-h-[200px] text-center md:text-left">
+    <div className="md:-rotate-1 bg-gradient-to-b from-yellow-50 to-white p-12 border-2 border-yellow-500 rounded-lg drop-shadow-2xl flex flex-wrap min-h-[200px] text-center md:text-left">
       <div className="relative hidden md:block ">
         <div data-atropos-offset="5" className="min-w-[200px] min-h-[400px]   absolute -left-24 -top-24">
-          <Image src={'/coffee-spill.png'} layout={'responsive'} width={80} height={150} />
+          <Image src={'/coffee-spill.png'} layout={'responsive'} width={80} height={150} alt={'coffee spill'} />
         </div>
       </div>
-      <div className="ml-40 space-y-3">
+      <div className="md:ml-40 space-y-3">
         <h1
           data-atropos-offset="5"
           className="rotate-1 drop-shadow bg-gradient-to-b from-primary-500 to-primary-300 bg-clip-text text-transparent text-3xl  md:text-5xl font-black tracking-tight uppercase"
