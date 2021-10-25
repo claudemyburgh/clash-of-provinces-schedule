@@ -10,8 +10,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: colors.lightBlue,
-        gray: colors.blueGray,
+        primary: colors.orange,
+        secondary: colors.lime,
+        gray: colors.warmGray,
       },
     },
   },
@@ -20,6 +21,7 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/line-clamp'),
+    require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/forms')({
       strategy: 'class',
     }),

@@ -2,6 +2,11 @@ const events = [
   {
     name: 'Gathering Day',
     description: 'Gather resources',
+    image: {
+      source: '/gathering-day.png',
+      wide: '760px',
+      height: '275px',
+    },
     events: [
       {
         tasks: ['Increase Building Power', 'Every 1 min of building speed-up items used'],
@@ -44,6 +49,11 @@ const events = [
   {
     name: 'Building Day',
     description: 'Upgrade Buildings',
+    image: {
+      source: '/hero-day.png',
+      wide: '760px',
+      height: '340px',
+    },
     events: [
       {
         tasks: ['Increase Building Power', 'Craft Parts'],
@@ -82,6 +92,11 @@ const events = [
   {
     name: 'Research Day',
     description: 'Research Technology',
+    image: {
+      source: '/research-day.png',
+      wide: '760px',
+      height: '355px',
+    },
     events: [
       {
         tasks: ['Use Any Speedups'],
@@ -120,6 +135,11 @@ const events = [
   {
     name: 'Hero Day',
     description: 'Recruit and Upgrade Heroes + Defeat Marauders ',
+    image: {
+      source: '/hero-day.png',
+      wide: '760px',
+      height: '340px',
+    },
     events: [
       {
         tasks: ['Hero Recruitment', 'Kill Marauders '],
@@ -158,6 +178,11 @@ const events = [
   {
     name: 'Training Day',
     description: 'Training Troops',
+    image: {
+      source: '/hero-day.png',
+      wide: '760px',
+      height: '340px',
+    },
     events: [
       {
         tasks: ['Use Any Speedups'],
@@ -196,6 +221,11 @@ const events = [
   {
     name: 'Kill Event',
     description: 'Conquer The Opposing State, Kill Enemy Soldiers',
+    image: {
+      source: '/kill-day.png',
+      wide: '760px',
+      height: '384px',
+    },
     events: [
       {
         tasks: ['Use Any Speedups'],
@@ -235,6 +265,11 @@ const events = [
     name: 'Free Development',
     description:
       'On free development days (Sundays and also Saturday during preparation weeks when there is no kill event) You can choose from any of the other days events (eg gathering, building etc). When you choose your Sunday event your hourly events on that day will be the same as the ones on the chosen day. For example if you choose Gathering on Sunday then you will get Day 1 (Monday) event schedule.',
+    image: {
+      source: '/hero-day.png',
+      wide: '760px',
+      height: '340px',
+    },
   },
 ]
 

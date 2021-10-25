@@ -4,7 +4,8 @@
 
 @layer components {
     .connected {
-        background-color: theme('colors.green.400') !important;
+        background-color: theme('colors.secondary.300') !important;
+        color: theme('colors.secondary.900') !important;
     }
     .connected + .connected .checker {
         position: relative;

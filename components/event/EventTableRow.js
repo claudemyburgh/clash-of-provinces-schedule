@@ -6,7 +6,7 @@ const EventTableRow = ({ event }) => {
   return (
     <>
       {event.events.map((event, eventIndex) => (
-        <tr key={`events-${eventIndex.toString()}`} className={`even:bg-primary-100  ${event.dd && 'connected'}`}>
+        <tr key={`events-${eventIndex.toString()}`} className={`even:bg-primary-100 odd:bg-gray-100  ${event.dd && 'connected'}`}>
           <td className="px-4 py-3 font-bold">
             <Times index={eventIndex} />
           </td>
@@ -21,7 +21,7 @@ const EventTableRow = ({ event }) => {
             <div className="checker w-8 h-8 float-right relative">
               <span
                 className={`w-8 h-8 rounded-full relative items-center justify-center z-20  flex${
-                  event.dd ? ' bg-gray-900 text-green-500' : ' bg-gray-200  text-white '
+                  event.dd ? ' bg-gray-900 text-secondary-400' : ' bg-gray-200  text-white '
                 }`}
               >
                 {event.dd ? <FaCheck size={14} /> : <FaTimes size={14} />}
